@@ -1,8 +1,8 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using WebApplication1.DatabaseContext;
 using WebApplication2;
-using WebApplication2.Controllers;
+using WebApplication2.Interfaces;
+using WebApplication2.Repository;
+using WebApplication2.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,13 +11,23 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<MyDbContextFactory>();
-
 // Register the IConfiguration instance which MyDbContextFactory depends on
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
-// Register DatabaseController with DI container
-builder.Services.AddTransient<DatabaseController>();
+// Register MyDbContextFactory
+builder.Services.AddSingleton<MyDbContextFactory>();
+
+// Register ConnectionStringProvider
+builder.Services.AddSingleton<IConnectionStringProvider, ConnectionStringProvider>();
+
+// Register the repository and service with a factory for DbContext
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped<MyDbContext>(provider =>
+{
+    var connectionStringProvider = provider.GetRequiredService<IConnectionStringProvider>();
+    var dbContextFactory = provider.GetRequiredService<MyDbContextFactory>();
+    return dbContextFactory.CreateDbContext(connectionStringProvider.GetConnectionString());
+});
 
 // Configure CORS to allow any origin, method, and header
 builder.Services.AddCors(options =>
@@ -46,14 +56,11 @@ else
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles(); // Enable serving static files
+app.UseStaticFiles();
 app.UseRouting();
 app.UseCors("AllowAll");
 app.UseAuthorization();
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers();
-});
+app.MapControllers(); // Use top-level route registration
 
 app.Run();
