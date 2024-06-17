@@ -22,6 +22,7 @@ builder.Services.AddSingleton<IConnectionStringProvider, ConnectionStringProvide
 
 // Register the repository and service with a factory for DbContext
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped<ICountSheetService, CountSheetService>();
 builder.Services.AddScoped<MyDbContext>(provider =>
 {
     var connectionStringProvider = provider.GetRequiredService<IConnectionStringProvider>();
