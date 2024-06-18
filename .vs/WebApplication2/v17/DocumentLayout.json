@@ -1,0 +1,339 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\dbcontext\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\dbcontext\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\security\\decryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\security\\decryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\webapplication2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\webapplication2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\models\\connstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\connstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\models\\countsheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\countsheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\controllers\\countsheetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\countsheetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\dbcontext\\mydesigntimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\dbcontext\\mydesigntimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\interfaces\\iconnectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\interfaces\\iconnectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\services\\connectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\services\\connectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\services\\countsheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\services\\countsheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\interfaces\\icountsheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\interfaces\\icountsheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|d:\\canapi_joshua_intern_pupsmb\\working api\\backend working api\\maui-backend-working-api\\webapplication2\\dbcontext\\mydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A028DC-D102-4C45-8A92-2888CCFE88BD}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\dbcontext\\mydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Migrations\\20240618014838_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication2\\Migrations\\20240618014838_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Migrations\\20240618013147_SecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication2\\Migrations\\20240618013147_SecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Program.cs",
+              "RelativeToolTip": "WebApplication2\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:36:37.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication2\\appsettings.json",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\appsettings.json",
+              "RelativeToolTip": "WebApplication2\\appsettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T03:36:21.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Employee.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Models\\Employee.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Employee.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:35:24.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DecryptionService.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Security\\DecryptionService.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Security\\DecryptionService.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Security\\DecryptionService.cs",
+              "RelativeToolTip": "WebApplication2\\Security\\DecryptionService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:02:42.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseController.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Controllers\\DatabaseController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\DatabaseController.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Controllers\\DatabaseController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\DatabaseController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T02:06:14.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\DbContext\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\DbContext\\MyDbContext.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\DbContext\\MyDbContext.cs",
+              "RelativeToolTip": "WebApplication2\\DbContext\\MyDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:35:57.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApplication2.http",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\WebApplication2.http",
+              "RelativeDocumentMoniker": "WebApplication2\\WebApplication2.http",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\WebApplication2.http",
+              "RelativeToolTip": "WebApplication2\\WebApplication2.http",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-18T03:39:46.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConnString.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Models\\ConnString.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\ConnString.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Models\\ConnString.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\ConnString.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:42:43.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CountSheet.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Models\\CountSheet.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\CountSheet.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Models\\CountSheet.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\CountSheet.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:35:22.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Inventory.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Models\\Inventory.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Inventory.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:35:26.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Repository\\Repository.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Repository\\Repository.cs",
+              "RelativeToolTip": "WebApplication2\\Repository\\Repository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:11:52.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Repository\\IRepository.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Repository\\IRepository.cs",
+              "RelativeToolTip": "WebApplication2\\Repository\\IRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:11:51.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CountSheetController.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Controllers\\CountSheetController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\CountSheetController.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Controllers\\CountSheetController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\CountSheetController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T02:06:12.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MyDesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\DbContext\\MyDesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\DbContext\\MyDesignTimeDbContextFactory.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\DbContext\\MyDesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "WebApplication2\\DbContext\\MyDesignTimeDbContextFactory.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:32:23.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IConnectionStringProvider.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Interfaces\\IConnectionStringProvider.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Interfaces\\IConnectionStringProvider.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Interfaces\\IConnectionStringProvider.cs",
+              "RelativeToolTip": "WebApplication2\\Interfaces\\IConnectionStringProvider.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:01:18.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConnectionStringProvider.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Services\\ConnectionStringProvider.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Services\\ConnectionStringProvider.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Services\\ConnectionStringProvider.cs",
+              "RelativeToolTip": "WebApplication2\\Services\\ConnectionStringProvider.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:09:56.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CountSheet.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Services\\CountSheet.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Services\\CountSheet.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Services\\CountSheet.cs",
+              "RelativeToolTip": "WebApplication2\\Services\\CountSheet.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:09:55.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ICountSheet.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Interfaces\\ICountSheet.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Interfaces\\ICountSheet.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Interfaces\\ICountSheet.cs",
+              "RelativeToolTip": "WebApplication2\\Interfaces\\ICountSheet.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T03:11:47.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyDbContextFactory.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\DbContext\\MyDbContextFactory.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\DbContext\\MyDbContextFactory.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\DbContext\\MyDbContextFactory.cs",
+              "RelativeToolTip": "WebApplication2\\DbContext\\MyDbContextFactory.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:32:22.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240618014838_initialMigration.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Migrations\\20240618014838_initialMigration.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Migrations\\20240618014838_initialMigration.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Migrations\\20240618014838_initialMigration.cs",
+              "RelativeToolTip": "WebApplication2\\Migrations\\20240618014838_initialMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:48:38.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240618013147_SecondMigration.cs",
+              "DocumentMoniker": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Migrations\\20240618013147_SecondMigration.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Migrations\\20240618013147_SecondMigration.cs",
+              "ToolTip": "D:\\Canapi_Joshua_Intern_PUPSMB\\WORKING API\\BACKEND WORKING API\\MAUI-BACKEND-WORKING-API\\WebApplication2\\Migrations\\20240618013147_SecondMigration.cs",
+              "RelativeToolTip": "WebApplication2\\Migrations\\20240618013147_SecondMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T01:31:47.618Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@ using WebApplication1.DatabaseContext;
 using WebApplication2;
 using WebApplication2.Interfaces;
 using WebApplication2.Repository;
+using WebApplication2.Security;
 using WebApplication2.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +20,11 @@ builder.Services.AddSingleton<MyDbContextFactory>();
 
 // Register ConnectionStringProvider
 builder.Services.AddSingleton<IConnectionStringProvider, ConnectionStringProvider>();
+
+// Register DecryptionService
+var encryptionKey = "In the eye of the beholder doth lie beauty's true essence, for each gaze doth fashion its own fair visage";
+var salt = new byte[] { 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f };
+builder.Services.AddSingleton(new DecryptionService(encryptionKey, salt));
 
 // Register the repository and service with a factory for DbContext
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
@@ -43,25 +49,16 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UseCors("AllowAll");
+
 if (app.Environment.IsDevelopment())
 {
-    app.UseDeveloperExceptionPage();
     app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1"));
-}
-else
-{
-    app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
+    app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-app.UseRouting();
-app.UseCors("AllowAll");
 app.UseAuthorization();
 
-app.MapControllers(); // Use top-level route registration
+app.MapControllers();
 
 app.Run();
