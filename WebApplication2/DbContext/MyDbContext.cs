@@ -22,9 +22,9 @@ namespace WebApplication1.DatabaseContext
 
                 entity.HasKey(e => e.CountId);
 
-                entity.Property(e => e.CountId).HasColumnName("cou_id");
-                entity.Property(e => e.CountCode).HasColumnName("cou_code").HasMaxLength(50).IsRequired();
-                entity.Property(e => e.CountName).HasColumnName("cou_name").HasMaxLength(100).IsRequired();
+                entity.Property(e => e.CountId).HasColumnName("cnt_id");
+                entity.Property(e => e.CountCode).HasColumnName("cnt_code").HasMaxLength(50).IsRequired();
+                entity.Property(e => e.CountName).HasColumnName("cnt_name").HasMaxLength(100).IsRequired();
             });
 
             // Configure Employee table
@@ -51,11 +51,27 @@ namespace WebApplication1.DatabaseContext
                 entity.Property(e => e.ItemDescription).HasColumnName("itm_description").HasMaxLength(100).IsRequired();
                 entity.Property(e => e.ItemUom).HasColumnName("itm_uom").HasMaxLength(20).IsRequired();
                 entity.Property(e => e.ItemLotNumber).HasColumnName("itm_lot").HasMaxLength(50).IsRequired();
+                entity.Property(e => e.ItemBatchLotNumber).HasColumnName("itm_batch").HasMaxLength(50).IsRequired();
                 entity.Property(e => e.ItemExpiry).HasColumnName("itm_expiry").HasMaxLength(20).IsRequired();
                 entity.Property(e => e.ItemQuantity).HasColumnName("itm_quantity").IsRequired();
                 entity.Property(e => e.ItemDateLog).HasColumnName("itm_date_log").HasMaxLength(20).IsRequired();
-                entity.Property(e => e.ItemCouCode).HasColumnName("itm_cou_code").HasMaxLength(50).IsRequired();
-                entity.Property(e => e.ItemEmpCode).HasColumnName("itm_emp_code").HasMaxLength(50).IsRequired();
+                entity.Property(e => e.ItemCountCode).HasColumnName("itm_cnt_code").HasMaxLength(50).IsRequired();
+                entity.Property(e => e.ItemEmployeeCode).HasColumnName("itm_emp_code").HasMaxLength(50).IsRequired();
+
+                // Configure foreign keys
+                entity.HasOne<CountSheet>()
+                    .WithMany()
+                    .HasForeignKey(e => e.ItemCountCode)
+                    .HasPrincipalKey(c => c.CountCode)
+                    .OnDelete(DeleteBehavior.Restrict)
+                    .HasConstraintName("FK_ItemCount_CountSheet");
+
+                entity.HasOne<Employee>()
+                    .WithMany()
+                    .HasForeignKey(e => e.ItemEmployeeCode)
+                    .HasPrincipalKey(e => e.EmployeeCode)
+                    .OnDelete(DeleteBehavior.Restrict)
+                    .HasConstraintName("FK_ItemCount_Employee");
             });
         }
     }
